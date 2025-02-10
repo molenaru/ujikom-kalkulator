@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: rgb(9,13,31);
+    background: linear-gradient(31deg, rgba(9,13,31,1) 0%, rgba(7,79,166,1) 75%); 
+    font-family: sans-serif;
+    height: 105vh;
+    margin: 0;
+} 
+
+#display {
+    width: 268px;
+    height: 120px;
+    text-align: right;
+    vertical-align: bottom;
+    color: white;
+    font-size: 42px;
+} 
+
+.container {
+    width: 305px;
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+#tema {
+    background-color: transparent ;
+}
+
+table {
+    width: 100%;
+    background-color: black;
+    border-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    color: white;
+    border-radius: 500px;
+    background-color: #43454d; 
+    border-color: transparent;
+}
+
+button:active {
+    background-color: #36373d;
+}
+
+.del {
+    background-color: #f70505;
+}
+
+.del:active {
+    background-color: #de0909;
+}
+
+.op {
+    background-color: #ff7300;
+}
+
+.op:active {
+    background-color: #d46a13;
+}
+
+.smdg {
+    background-color: #1410e8;
+    height: 126px;
+}
+
+.smdg:active {
+    background-color: #1512c7;
+}
+
+.an {
+    background-color: #252629;
+}
+
+.an:active {
+    background-color: #1f1f21;
+}
+
+.tombol-tema {
+    background-color: transparent;
+}
+
+a {
+    padding: 18px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
